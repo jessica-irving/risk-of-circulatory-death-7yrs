@@ -2,6 +2,8 @@
 
 In this notebook I compare the performance of two prototype survival models, **Cox Proportional Hazards** regression and **Random Survival Forests**, at estimating seven-year risk of death from circulatory causes. I train these models on data from individuals entering the cohort from 1995 to 1998, with the test set (14% of the total data) comprising all individuals from 1999 to 2003.
 
+Overall, seven-year risk of death from circulatory causes is around 6.3% in this population.
+
 From a few simple predictors it was possible to build a classifier for predicting risk of death from a circulatory disease at seven years that performed well in external temporal validation (see Figure 1).
 
 These predictors were:
